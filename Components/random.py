@@ -8,8 +8,17 @@ class House:
     def IsHouseBuilt(hs):
         return hs.__is_built_
     
-def MakeHouse(brick_batch, user_house):
+def MakeHouse(brick_batch):
     the_house = House(brick_batch)
     if the_house.IsHouseBuilt() == True:
         return the_house
     return False
+
+class BrickBatch:
+    def __init__(br, amount):
+        br.bricks_= []
+        br.amount_ = amount
+
+brick_batch = BrickBatch(500)
+house_situation = MakeHouse(brick_batch)
+print(house_situation)

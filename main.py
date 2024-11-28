@@ -2,12 +2,12 @@ import Components.Bricks
 import Components.Home
 def main():
     red_bricks = Components.Bricks.Brick()
-    bunch_of_bricks = Components.Bricks.BrickBatch(14000)
-    user_house = Components.Home.House(bunch_of_bricks)
+    bunch_of_bricks = Components.Bricks.BrickBatch(14000) #rename to brick_batch
+    #user_house = Components.Home.House(bunch_of_bricks)
     total_price = bunch_of_bricks.CalcTotalPrice()
     if user_house.IsHouseBuilt() == True:
         print(f"The house is built and it cost {total_price}")
-    #doesnt work dont know why"""
+    
 
 main()
 
