@@ -1,3 +1,6 @@
+""" Here you need to test only Utilities.py
+    Plase provide at least 3 different situations working with the functions there.
+    Do not print anything but use instead the keyword assert"""
 class Brick:
     def __init__(obj):
         obj.VALUE_ = 5
