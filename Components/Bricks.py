@@ -14,4 +14,3 @@ class BrickBatch:
         
     def CalcTotalPrice(br):
         return br.amount_ * Brick().VALUE_
-print("The file Bricks.py was imported")

@@ -1,4 +1,6 @@
-"""class Database:
+from Components.Builders import #dont know how to get the method GetID()
+import Components.Bricks
+class Database:
     def __init__(DB):
         
         DB.__builders_ = []  
@@ -41,12 +43,10 @@ class Inventory:
         else:
             return False
 
-        
-    
-    #def GetBudget(inv):
+
 
     def BuyBricks(inv, bunch_of_bricks):
-        total = bunch_of_bricks.CalcTotalPrice()
+        total = bunch_of_bricks.Components.Bricks.CalcTotalPrice() #dont know how to call class method...
         if inv.__money_ >= total:
             inv.__money_-= total
         else:
