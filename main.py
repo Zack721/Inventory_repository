@@ -19,3 +19,4 @@ main()
 #should receive one argument that is an int saying the number of bricks they want also have a container that holds objects
 #have a method that calcs the total value of all the bricks in the container
 
+#hi
